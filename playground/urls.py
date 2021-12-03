@@ -11,7 +11,7 @@ from . import views
 
 # URLconf
 urlpatterns = [
-    path('hello/', views.say_hello),
-    path('hello/', views.home)
+    path('', views.say_hello),
+    path('', views.home)
     
     ]

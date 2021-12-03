@@ -1,5 +1,6 @@
-body {
-    background-color: blue;
+body{
+    background-image: url("/static/images/forest.png");
+    background-size: cover;
 }
 
 #profile-wrapper{
@@ -7,9 +8,10 @@ body {
 }
 
 #profile-pic{
-    /*width:150px;*/
-    /*height: 150px;*/
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
 }
+
